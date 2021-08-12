@@ -27,8 +27,9 @@ proto = "wt"
 wait_for = "cpu"
 server = "default"
 
-# Npm specific configs
-
 [npm.scripts]
 start = "node .clio/index.js"
 host = "node .clio/host.js"
+
+[dependencies]
+"https://github.com/clio-lang/fib" = "master"
